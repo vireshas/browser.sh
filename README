@@ -1,0 +1,9 @@
+Platform: mac, ubuntu
+
+Usage: browser
+===========
+Pipe html or any file to browser
+e.g.
+$ echo '<h1>Hi!</h1>' | browser
+$ browser example.pdf
+$ cat test.html | browser
