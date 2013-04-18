@@ -1,9 +1,17 @@
-Platform: mac, ubuntu
+Platform: mac, debian-linux
+===========================
+
+Installation:
+=============
+sudo mv browse.sh /bin/browse
 
 Usage: browser
-===========
-Pipe html or any file to browser
-e.g.
-$ echo '<h1>Hi!</h1>' | browser
-$ browser example.pdf
-$ cat test.html | browser
+==============
+Pipe html or any file to browse
+
+e.g:
+$ echo '<h1>Hi!</h1>' | browse
+$ browse example.pdf
+$ cat test.html | browse
+$ browse folder_name
+$ browse video.mp4
